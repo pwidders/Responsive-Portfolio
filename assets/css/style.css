@@ -32,8 +32,8 @@ header {
     border-width: .5px;
     border-color: grey;
     border-top-width: 0px;
-    position: fixed;
     top: 0px;
+    position: absolute;
 }
 
 header::after {
@@ -200,12 +200,9 @@ label {
     }
 }
 
-@media all and (max-width: 440px) {
+@media all and (max-width: 447px) {
     main {
         width: 100%
-    }
-    #main-content-heading {
-        text-align: center
     }
     .wrapper {
         width 100%;
@@ -213,5 +210,22 @@ label {
     .inside-wrapper{
         width: 100%;
     }
-  
+    nav ul {
+        padding-top: 30px;
+    }
+    #main-content-heading {
+        padding-left: 10px
+    }
+    #headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    float: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px
+    }
 }
+
+
