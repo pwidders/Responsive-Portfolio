@@ -32,7 +32,7 @@ header {
     border-width: .5px;
     border-color: grey;
     border-top-width: 0px;
-    position: absolute;
+    position: fixed;
     top: 0px;
 }
 
@@ -61,6 +61,7 @@ header::after {
 nav {
     width: 0 auto;
     float: right;
+    padding-right: 30px;
 }
 
 nav ul {
@@ -148,7 +149,7 @@ footer {
 }
 
 img {
-    width: 233px;
+    width: 250px;
     height: 180px;
     margin-right: 10px;
     margin-left: 20;
@@ -181,5 +182,27 @@ label {
     color: #4aaaa5;
     font-weight: bold
 }
-    
 
+/* Responsive adjustments */
+
+@media all and (max-width: 958px) {
+    .wrapper {
+        width: 100%;
+    }
+     header {
+        width 100%;
+    } 
+}
+
+@media all and (max-width: 480px) {
+    .main-content-heading {
+        text-align: center
+    }
+    .wrapper {
+        width 100%;
+    }
+    .inside-wrapper{
+        width: 100%;
+    }
+  
+}
