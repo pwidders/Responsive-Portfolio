@@ -192,6 +192,7 @@ label {
     .inside-wrapper {
         width: 90%;
     }
+
     header {
         width: 100%;
     } 
@@ -200,7 +201,20 @@ label {
     }
 }
 
-@media all and (max-width: 447px) {
+@media all and (max-width: 794px) {
+    .wrapper-slim {
+        width: 100%;
+    }
+    .inside-wrapper-slim {
+        width: 100%;
+    }
+    #horizontal-bar-2 {
+        width 90%;
+    }
+}
+
+
+@media all and (max-width: 446px) {
     main {
         width: 100%
     }
@@ -212,20 +226,32 @@ label {
     }
     nav ul {
         padding-top: 30px;
+        margin: 5px;
     }
     #main-content-heading {
         padding-left: 10px
     }
     #headshot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    float: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        float: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px
     }
-}
+    #horizontal-bar-2 {
+        width 90%;
+    }
+    nav ul li {
+        margin-top: 25px;
+        padding-right: 2px;
+        list-style: none;
+    }
+
+
+   
+
 
 
